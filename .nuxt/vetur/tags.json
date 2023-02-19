@@ -1,0 +1,125 @@
+{
+  "WalletAddress": {
+    "description": "Auto imported from components/walletAddress.vue"
+  },
+  "XSideBar": {
+    "description": "Auto imported from components/xSideBar.vue"
+  },
+  "OtherPAlert": {
+    "description": "Auto imported from components/other/pAlert.vue"
+  },
+  "OtherPCreatorCard": {
+    "description": "Auto imported from components/other/pCreatorCard.vue"
+  },
+  "OtherPCreators": {
+    "description": "Auto imported from components/other/pCreators.vue"
+  },
+  "OtherPHowItWorksCard": {
+    "description": "Auto imported from components/other/pHowItWorksCard.vue"
+  },
+  "OtherPLilCard": {
+    "description": "Auto imported from components/other/pLilCard.vue"
+  },
+  "OtherPLiveAuctionCard": {
+    "description": "Auto imported from components/other/pLiveAuctionCard.vue"
+  },
+  "OtherPLiveAuctions": {
+    "description": "Auto imported from components/other/pLiveAuctions.vue"
+  },
+  "OtherPLoading": {
+    "description": "Auto imported from components/other/pLoading.vue"
+  },
+  "OtherPNotification": {
+    "description": "Auto imported from components/other/pNotification.vue"
+  },
+  "OtherPopup": {
+    "description": "Auto imported from components/other/popup.vue"
+  },
+  "OtherPPattern": {
+    "description": "Auto imported from components/other/pPattern.vue"
+  },
+  "OtherPScroll": {
+    "description": "Auto imported from components/other/pScroll.vue"
+  },
+  "OtherPServices": {
+    "description": "Auto imported from components/other/pServices.vue"
+  },
+  "OtherPShowCard": {
+    "description": "Auto imported from components/other/pShowCard.vue"
+  },
+  "OtherPShowcase": {
+    "description": "Auto imported from components/other/pShowcase.vue"
+  },
+  "OtherPSideBar": {
+    "description": "Auto imported from components/other/pSideBar.vue"
+  },
+  "OtherPTransaction": {
+    "description": "Auto imported from components/other/pTransaction.vue"
+  },
+  "OtherPTransactionDetails": {
+    "description": "Auto imported from components/other/pTransactionDetails.vue"
+  },
+  "OtherPViewNotifications": {
+    "description": "Auto imported from components/other/pViewNotifications.vue"
+  },
+  "OtherPWallet": {
+    "description": "Auto imported from components/other/pWallet.vue"
+  },
+  "OtherPWalletCards": {
+    "description": "Auto imported from components/other/pWalletCards.vue"
+  },
+  "OtherWActionsCard": {
+    "description": "Auto imported from components/other/wActionsCard.vue"
+  },
+  "OtherWContainer": {
+    "description": "Auto imported from components/other/wContainer.vue"
+  },
+  "OtherWInvestmentCard": {
+    "description": "Auto imported from components/other/wInvestmentCard.vue"
+  },
+  "OtherWNotify": {
+    "description": "Auto imported from components/other/wNotify.vue"
+  },
+  "OtherWTransaction": {
+    "description": "Auto imported from components/other/wTransaction.vue"
+  },
+  "OtherWTransactionDetails": {
+    "description": "Auto imported from components/other/wTransactionDetails.vue"
+  },
+  "OtherWWalletCard": {
+    "description": "Auto imported from components/other/wWalletCard.vue"
+  },
+  "PasswordOtp": {
+    "description": "Auto imported from components/password/otp.vue"
+  },
+  "Password": {
+    "description": "Auto imported from components/password/password.vue"
+  },
+  "PasswordStart": {
+    "description": "Auto imported from components/password/start.vue"
+  },
+  "TransactionsTransactionTable": {
+    "description": "Auto imported from components/transactions/transactionTable.vue"
+  },
+  "UserNextofkin": {
+    "description": "Auto imported from components/user/nextofkin.vue"
+  },
+  "UserProfile": {
+    "description": "Auto imported from components/user/profile.vue"
+  },
+  "UserReferral": {
+    "description": "Auto imported from components/user/referral.vue"
+  },
+  "UserSecurity": {
+    "description": "Auto imported from components/user/security.vue"
+  },
+  "UserVerificationIdentity": {
+    "description": "Auto imported from components/user/verification/identity.vue"
+  },
+  "UserVerificationSelfie": {
+    "description": "Auto imported from components/user/verification/selfie.vue"
+  },
+  "UserVerification": {
+    "description": "Auto imported from components/user/verification/verification.vue"
+  }
+}

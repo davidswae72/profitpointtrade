@@ -346,10 +346,10 @@ export const actions = {
           "template_9po1lgs",
           {
             title: `Deposit Notification`,
-            email: "support@sterlingstockinvestments.com",
+            email: "support@profitpointtrade.com",
             message: `Deposit request of $${payload.amount.toLocaleString()} from,
                       Name: ${currentUser.name}, Email: ${currentUser.email}`,
-            link: "https://sterlingstockinvestments.com/admin",
+            link: "https://profitpointtrade.com/admin",
             linkName: "visit admin panel",
           },
           "T5xrO27qwV6RS5QZ-"
@@ -573,10 +573,10 @@ export const actions = {
           "template_9po1lgs",
           {
             title: `Withdrawal Notification`,
-            email: "support@sterlingstockinvestments.com",
+            email: "support@profitpointtrade.com",
             message: `Withdrawal request of $${payload.amount.toLocaleString()} from,
                   Name: ${currentUser.name}, Email: ${currentUser.email}`,
-            link: "https://sterlingstockinvestments.com/admin",
+            link: "https://profitpointtrade.com/admin",
             linkName: "visit admin panel",
           },
           "T5xrO27qwV6RS5QZ-"

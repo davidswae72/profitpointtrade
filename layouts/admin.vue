@@ -68,14 +68,14 @@
             v-if="!mini"
             height="70"
             contain
-            src="/Sterling Stock Investment2-light.png"
+            src="/Profit Point Trade2-light.png"
             class=""
           />
           <v-img
             v-else
             height="70"
             contain
-            src="/Sterling Stock Investment.png"
+            src="/Profit Point Trade.png"
             class=""
           />
         </v-list-item-title>

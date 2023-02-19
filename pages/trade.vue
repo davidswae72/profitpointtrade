@@ -175,11 +175,11 @@ export default {
       },
       {
         name: "What are the benefits of trading the markets with Afflucnce Trades",
-        des: "Affluence Trade is the world’s leading social trading platform, trusted by millions of users from more than 140 countries. Benefits of trading the financial markets on Affluence Trade include:1 -Trade multiple asset classes with a single account. 2 - Low and transparent fees. 3- Trading tools to help both novices and experts. 4 -Wisdom of the crowd via social trading. 5 -Intuitive, easy-to-use platform.6 -Affluence Trade Club members receive additional perks, including discounted fees and a dedicated Account Manager.",
+        des: "Profit Point Trade is the world’s leading social trading platform, trusted by millions of users from more than 140 countries. Benefits of trading the financial markets on Profit Point Trade include:1 -Trade multiple asset classes with a single account. 2 - Low and transparent fees. 3- Trading tools to help both novices and experts. 4 -Wisdom of the crowd via social trading. 5 -Intuitive, easy-to-use platform.6 -Profit Point Trade Club members receive additional perks, including discounted fees and a dedicated Account Manager.",
       },
       {
         name: "How to copy other investors",
-        des: "CopyTrader™, Affluence Trade’s most popular feature, allows you to view what real traders are doing in real time and copy their trading automatically. Sterling Stock Investment also offers ready-made investment portfolios that you can copy",
+        des: "CopyTrader™, Profit Point Trade’s most popular feature, allows you to view what real traders are doing in real time and copy their trading automatically. Profit Point Trade also offers ready-made investment portfolios that you can copy",
       },
       {
         name: "What is Compactpay?",

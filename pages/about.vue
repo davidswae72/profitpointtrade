@@ -17,7 +17,7 @@
               class="text-md-h5 light--text font-weight-light mt-5"
             >
               <p style="font-size: 17px">
-                Sterling Stock Investment is one of the world’s leading social
+                Profit Point Trade is one of the world’s leading social
                 investment networks and aims to revolutionise the way people
                 invest, and enhance investors’ financial education..
               </p>

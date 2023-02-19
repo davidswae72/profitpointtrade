@@ -22,14 +22,14 @@
 
     <v-col cols="12" class="d-flex align-center justify-center">
       <v-chip label outlined class="text--truncate secondary--text">
-        https://sterlingstockinvestments.com/register?ref={{
+        https://profitpointtrade.com/register?ref={{
           user && user.referralID
         }}
       </v-chip>
       <v-btn
         @click="
           copy(
-            `https://sterlingstockinvestments.com/register?ref=${
+            `https://profitpointtrade.com/register?ref=${
               user && user.referralID
             }`
           )

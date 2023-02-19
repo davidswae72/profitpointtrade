@@ -12,7 +12,7 @@
           outlined
           color="secondary"
           class="rounded-pill text-caption text-sm-subtitle-2"
-          >Sterling Stock Investment</v-chip
+          >Profit Point Trade</v-chip
         >
         <h2
           style="line-height: 1"
@@ -24,7 +24,7 @@
         <p>
           Join over <span class="secondary--text">22 million </span> traders
           worldwide who have already chosen
-          <span class="secondary--text">affluencetrades </span>
+          <span class="secondary--text">Profit Point Trade</span>
         </p>
         <div
           data-aos="fade-up"
@@ -156,7 +156,7 @@
               >Start Investing</v-btn
             >
             <div class="light--text text-caption px-sm-4 px-md-0">
-              Zero-commission means that no Sterling Stock Investment fee will
+              Zero-commission means that no Profit Point Trade fee will
               be charged when opening or closing the position and does not apply
               to short or leveraged positions. Limited stock exchanges only.
             </div>
@@ -179,13 +179,13 @@
       <v-col cols="12" class="pa-1 secondary"></v-col>
     </v-row>
 
-    <!-- ########### Join the Sterling Stock Investment Community  ########-->
+    <!-- ########### Join the Profit Point Trade Community  ########-->
     <v-row justify="center" align="center" class="ma-0 white py-10">
       <v-col cols="12" md="6" class="py-0 pl-md-10">
         <v-card flat tile color="transparent">
           <v-card-text class="dark--text text-center text-md-left">
             <div class="text-h5 text-sm-h4 font-weight-bold">
-              Join the Sterling Stock Investment Community
+              Join the Profit Point Trade Community
             </div>
             <div class="text-subtitle-2 text-sm-h6 font-weight-light my-2">
               <p>
@@ -311,7 +311,7 @@
               Copy top investors
             </div>
             <div class="text-subtitle-2 text-sm-h6 font-weight-light my-2">
-              With Sterling Stock Investment’s innovative
+              With Profit Point Trade’s innovative
               <strong>CopyTrader™</strong>, you can automatically copy the moves
               of other investors. Find investors you believe in and
               <strong>replicate their actions</strong> in real time.
@@ -395,7 +395,7 @@
         >
           Discover why millions of investors from over 100
           <br class="hidden-sm-and-down" />
-          countries joined Sterling Stock Investment
+          countries joined Profit Point Trade
         </p>
       </v-col>
 
@@ -538,7 +538,7 @@ export default {
           type: "up",
           title: "Set Up Your Wallet",
           description:
-            "Set up your wallet and then you can create, sell & collect NFTs atSterling Stock Investment-Nft.",
+            "Set up your wallet and then you can create, sell & collect NFTs atProfit Point Trade-Nft.",
           color: "primary",
           icon: "mdi-wallet",
         },
@@ -546,7 +546,7 @@ export default {
           type: "down",
           title: "Add Your NFTs",
           description:
-            "After setting up your wallet, you can add your NFTs onSterling Stock Investment-Nft.",
+            "After setting up your wallet, you can add your NFTs onProfit Point Trade-Nft.",
           color: "lime accent-3",
           iconColor: "black",
           icon: "mdi-grid-large",
@@ -675,7 +675,7 @@ export default {
   },
   head() {
     return {
-      title: "Sterling Stock Investment",
+      title: "Profit Point Trade",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
@@ -694,7 +694,7 @@ export default {
         {
           hid: "og:image",
           property: "og:image",
-          content: "/Sterling Stock Investmentnft.png",
+          content: "/Profit Point Tradenft.png",
         },
         {
           hid: "og:type",
@@ -704,12 +704,12 @@ export default {
         {
           hid: "twitter:image:src",
           property: "twitter:image:src",
-          content: "/Sterling Stock Investmentnft.png",
+          content: "/Profit Point Tradenft.png",
         },
         {
           hid: "og:title",
           property: "og:title",
-          content: "/Sterling Stock Investmentnft.png",
+          content: "/Profit Point Tradenft.png",
         },
         {
           hid: "twitter:card",

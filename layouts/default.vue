@@ -19,7 +19,7 @@
           >
             <v-img max-width="40" src="/logo.svg" />
             <span class="hidden-sm-and-down ml-2 primary--text text-capitalize"
-              >Sterling Stock Investment</span
+              >Profit Point Trade</span
             >
           </v-btn>
         </v-toolbar-title>
@@ -166,7 +166,7 @@
                 class="light--text text-subtitle-2 tet-subtitle-1 font-weight-light"
               >
                 With innovative investment tools and a collaborative trading
-                community, Sterling Stock Investment empowers millions of users
+                community, Profit Point Trade empowers millions of users
                 in over 140 countries to trade and invest in a simple and
                 transparent way.
               </p>

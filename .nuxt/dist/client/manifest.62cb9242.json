@@ -1,0 +1,11 @@
+{
+  "name": "Profit Point Trade",
+  "short_name": "Profit Point Trade",
+  "description": "Profit Point Trade With innovative investment tools and a collaborative trading community, Profit Point Trade empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FCD435",
+  "lang": "en"
+}

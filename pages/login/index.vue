@@ -89,7 +89,7 @@
               </v-col>
               <v-col cols="12" class="text-center">
                 <span class="light--text text-subtitle-2"
-                  >New to <strong> Sterling Stock Investment </strong></span
+                  >New to <strong> Profit Point Trade </strong></span
                 >
                 <v-btn
                   text

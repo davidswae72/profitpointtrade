@@ -26,7 +26,7 @@ export default {
   props: {
     src: {
       type: String,
-      default: "/Sterling Stock Investmentnft.png",
+      default: "/Profit Point Tradenft.png",
     },
     name: {
       type: String,

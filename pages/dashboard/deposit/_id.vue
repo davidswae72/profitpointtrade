@@ -166,8 +166,8 @@
               block
               color="warning"
               class="ma-0 text-lowercase text-subtitle-2 text-sm-h6"
-              href="mailto:support@sterlingstockinvestments.com"
-              >support@sterlingstockinvestments.com</v-btn
+              href="mailto:support@profitpointtrade.com"
+              >support@profitpointtrade.com</v-btn
             >
           </v-card-text>
         </v-card>

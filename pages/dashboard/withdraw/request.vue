@@ -234,10 +234,10 @@
                   <v-btn
                     color="secondary"
                     text
-                    href="mailto:support@sterlingstockinvestments.com"
+                    href="mailto:support@profitpointtrade.com"
                     class="px-0 text-lowercase"
                   >
-                    support@sterlingstockinvestments.com
+                    support@profitpointtrade.com
                   </v-btn>
                   to get your <strong>Withdrawal Code</strong>
                 </v-col>

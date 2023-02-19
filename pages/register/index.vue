@@ -20,10 +20,10 @@
             "
           >
             <div class="font-weight-bold text-h6 text3--text text-sm-h5">
-              Sign Up to Sterling Stock Investment-Nft
+              Sign Up to Profit Point Trade-Nft
             </div>
             <div class="text-subtitle-1 mt-2 text1--text font-weight-light">
-              Sign Up to Sterling Stock Investment-Nft
+              Sign Up to Profit Point Trade-Nft
             </div>
           </v-card-title>
           <v-card-text>
@@ -163,8 +163,8 @@
                   Sign up
                 </h2>
                 <p class="light--text text-subtitle-2 mt-2">
-                  Create a trading account wiht
-                  <span class="secondary--text">affluencetrades</span>
+                  Create a trading account with
+                  <span class="secondary--text">Profit Point Trade</span>
                 </p>
               </v-col>
               <v-col cols="12" class="py-0">
@@ -263,8 +263,7 @@
                 >
                   <template v-slot:label>
                     <div class="text-caption light--text">
-                      I accept the Sterling Stock Investment AUS and Sterling
-                      Stock Investment Service (by Gleneagle) -
+                      I accept the Profit Point Trade AUS Service (by Gleneagle) -
                       <nuxt-link tag="a" class="secondary--text" to="#">
                         Terms & Conditions, Product Disclosure Statement
                       </nuxt-link>

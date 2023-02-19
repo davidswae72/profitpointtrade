@@ -16,7 +16,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    titleTemplate: '%s Sterling Stock Investment',
+    titleTemplate: '%s Profit Point Trade',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no' },
@@ -83,16 +83,16 @@ export default {
   pwa: {
     meta: {
       theme_color:'#FCD435',
-      ogTitle:'Sterling Stock Investment',
-      description:'Affluence With innovative investment tools and a collaborative trading community, Sterling Stock Investment empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
-      ogDescription:'Affluence With innovative investment tools and a collaborative trading community, Sterling Stock Investment empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
+      ogTitle:'Profit Point Trade',
+      description:'Profit Point Trade With innovative investment tools and a collaborative trading community, Profit Point Trade empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
+      ogDescription:'Profit Point Trade With innovative investment tools and a collaborative trading community, Profit Point Trade empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
       twitterCard:'summary_large_image',
 
     },
     manifest: {
-      name:'Sterling Stock Investment',
-      short_name:'Sterling Stock Investment',
-      description:'Affluence With innovative investment tools and a collaborative trading community, Sterling Stock Investment empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
+      name:'Profit Point Trade',
+      short_name:'Profit Point Trade',
+      description:'Profit Point Trade With innovative investment tools and a collaborative trading community, Profit Point Trade empowers millions of users in over 140 countries to trade and invest in a simple and transparent way.',
     }
   },
   /*
