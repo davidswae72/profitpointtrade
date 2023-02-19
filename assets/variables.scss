@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap");
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+$body-font-family: "DM Sans", Roboto, sans-serif;
+
+.scrollStyle {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+// .scrollStyle::-webkit-scrollbar {
+//     width: 0;
+//     height: 4px;
+//     background: rgba(255, 255, 255, 0.315);
+// }
+
+// .scrollStyle::-webkit-scrollbar-thumb {
+//     background: #b3c9ff;
+// }
+
+.onHoverShadow {
+  transition: all 0.3s ease-in-out;
+}
+
+.onHoverShadow:hover {
+  box-shadow: 0 0 24px 2px rgba(0, 0, 0, 0.1);
+  border: 0;
+}
+
+.navGradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(242, 237, 202) 100%
+  );
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.inset {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+}
+
+.openSans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.dmSans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.border-13 {
+  border-radius: 13px;
+}
+
+.border-s {
+  border: 1px solid #fcd435;
+}
+
+.flashit {
+  color: #fcd435;
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
