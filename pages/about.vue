@@ -19,7 +19,7 @@
               <p style="font-size: 17px">
                 Profit Point Trade is one of the world’s leading social
                 investment networks and aims to revolutionise the way people
-                invest, and enhance investors’ financial education..
+                invest, and enhance investors’ financial education.
               </p>
             </div>
           </v-col>
