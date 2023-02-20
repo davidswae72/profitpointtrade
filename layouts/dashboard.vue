@@ -296,7 +296,7 @@ export default {
         {
           src: "https://files.coinmarketcap.com/static/widget/currency.js",
         },
-        { src: "//code.tidio.co/qhqdwhaiplrab4nxepjtlmdbqog6jwkz.js" },
+        { src: "//code.tidio.co/vgmxlvetuzdlklbjrb8hkftsnl2yvawh.js" },
       ],
     };
   },

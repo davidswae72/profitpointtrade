@@ -5,6 +5,15 @@
   "XSideBar": {
     "description": "Auto imported from components/xSideBar.vue"
   },
+  "PasswordOtp": {
+    "description": "Auto imported from components/password/otp.vue"
+  },
+  "Password": {
+    "description": "Auto imported from components/password/password.vue"
+  },
+  "PasswordStart": {
+    "description": "Auto imported from components/password/start.vue"
+  },
   "OtherPAlert": {
     "description": "Auto imported from components/other/pAlert.vue"
   },
@@ -88,15 +97,6 @@
   },
   "OtherWWalletCard": {
     "description": "Auto imported from components/other/wWalletCard.vue"
-  },
-  "PasswordOtp": {
-    "description": "Auto imported from components/password/otp.vue"
-  },
-  "Password": {
-    "description": "Auto imported from components/password/password.vue"
-  },
-  "PasswordStart": {
-    "description": "Auto imported from components/password/start.vue"
   },
   "TransactionsTransactionTable": {
     "description": "Auto imported from components/transactions/transactionTable.vue"

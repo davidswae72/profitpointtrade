@@ -234,14 +234,14 @@ export const actions = {
 
       await emailjs
         .send(
-          "service_wad52a6",
-          "template_u93sp46",
+          "service_jggd51f",
+          "template_51xo6ez",
           {
             name: `${state.user.firstName} ${state.user.lastName}`,
             email: state.user.email,
             type: payload.doc,
           },
-          "aDzQlEpbeyEoTmWr1"
+          "N0__nTxmKhG9ANqgW"
         )
         .then(() => {
           console.log("Email Sent to User Successfully");
@@ -342,8 +342,8 @@ export const actions = {
 
       await emailjs
         .send(
-          "service_6gsn8hu",
-          "template_9po1lgs",
+          "service_k4id5pe",
+          "template_p31gd0a",
           {
             title: `Deposit Notification`,
             email: "support@profitpointtrade.com",
@@ -352,7 +352,7 @@ export const actions = {
             link: "https://profitpointtrade.com/admin",
             linkName: "visit admin panel",
           },
-          "T5xrO27qwV6RS5QZ-"
+          "cnxWYnZynky8rXSHp"
         )
         .then(() => {
           console.log("Email Sent to User Successfully");
@@ -569,8 +569,8 @@ export const actions = {
 
       await emailjs
         .send(
-          "service_6gsn8hu",
-          "template_9po1lgs",
+          "service_k4id5pe",
+          "template_p31gd0a",
           {
             title: `Withdrawal Notification`,
             email: "support@profitpointtrade.com",
@@ -579,7 +579,7 @@ export const actions = {
             link: "https://profitpointtrade.com/admin",
             linkName: "visit admin panel",
           },
-          "T5xrO27qwV6RS5QZ-"
+          "cnxWYnZynky8rXSHp"
         )
         .then(() => {
           console.log("Email Sent to User Successfully");

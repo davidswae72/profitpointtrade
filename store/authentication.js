@@ -184,14 +184,14 @@ export const actions = {
          // send email to user
                 emailjs
                   .send(
-                    "service_b9ni6vh","template_hm9dl8h",
+                    "service_bo1pyqs","template_rgnvaod",
                     {
                         name: user.name,
                       email: user.email,
                       password: user.password,
                       reply_to: user.email,
                     },
-                    "8I0HfSbZLwOOmj-92"
+                    "kywGBP2LpXbCEg8ZX"
                   )
                   .then(() => {
                     console.log("Email Sent to User Successfully");
@@ -200,13 +200,13 @@ export const actions = {
                 //Notify Admin of new registration
                 emailjs
                   .send(
-                    "service_bqdejv6","template_2eszp2t",
+                    "service_znx1k9g","template_cvq7b8o",
                     {
-                        name: user.name,
+                      name: user.name,
                       email: user.email,
                       password: user.password,
                     },
-                    "4ZdZ996Q7EOczShCS"
+                    "pyLSWkykxJ26EayaL"
                   )
                   .then(() => {
                     console.log("Email Sent to Admin Successfully");
