@@ -4,49 +4,52 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2d0ee450 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _413c16a8 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _70094c2b = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _2a65387a = () => interopDefault(import('..\\pages\\dashboard\\index.vue' /* webpackChunkName: "pages/dashboard/index" */))
-const _f8891364 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
-const _7c26724c = () => interopDefault(import('..\\pages\\register\\index.vue' /* webpackChunkName: "pages/register/index" */))
-const _6632982f = () => interopDefault(import('..\\pages\\trade.vue' /* webpackChunkName: "pages/trade" */))
-const _bc097fc2 = () => interopDefault(import('..\\pages\\admin\\account\\index.vue' /* webpackChunkName: "pages/admin/account/index" */))
-const _d4260646 = () => interopDefault(import('..\\pages\\admin\\notification\\index.vue' /* webpackChunkName: "pages/admin/notification/index" */))
-const _ef8c7d3e = () => interopDefault(import('..\\pages\\admin\\otp\\index.vue' /* webpackChunkName: "pages/admin/otp/index" */))
-const _0ace167e = () => interopDefault(import('..\\pages\\admin\\signals\\index.vue' /* webpackChunkName: "pages/admin/signals/index" */))
-const _30a0ceb2 = () => interopDefault(import('..\\pages\\admin\\traders\\index.vue' /* webpackChunkName: "pages/admin/traders/index" */))
-const _2f1c7633 = () => interopDefault(import('..\\pages\\admin\\transactions\\index.vue' /* webpackChunkName: "pages/admin/transactions/index" */))
-const _064f8164 = () => interopDefault(import('..\\pages\\dashboard\\account\\index.vue' /* webpackChunkName: "pages/dashboard/account/index" */))
-const _0513175a = () => interopDefault(import('..\\pages\\dashboard\\deposit\\index.vue' /* webpackChunkName: "pages/dashboard/deposit/index" */))
-const _50b48978 = () => interopDefault(import('..\\pages\\dashboard\\home\\index.vue' /* webpackChunkName: "pages/dashboard/home/index" */))
-const _562de693 = () => interopDefault(import('..\\pages\\dashboard\\loan\\index.vue' /* webpackChunkName: "pages/dashboard/loan/index" */))
-const _551edaee = () => interopDefault(import('..\\pages\\dashboard\\notifications\\index.vue' /* webpackChunkName: "pages/dashboard/notifications/index" */))
-const _23a970e6 = () => interopDefault(import('..\\pages\\dashboard\\trade\\index.vue' /* webpackChunkName: "pages/dashboard/trade/index" */))
-const _b75713d6 = () => interopDefault(import('..\\pages\\dashboard\\upgrade\\index.vue' /* webpackChunkName: "pages/dashboard/upgrade/index" */))
-const _583db7b9 = () => interopDefault(import('..\\pages\\dashboard\\withdraw\\index.vue' /* webpackChunkName: "pages/dashboard/withdraw/index" */))
-const _008ccdc3 = () => interopDefault(import('..\\pages\\password\\reset\\index.vue' /* webpackChunkName: "pages/password/reset/index" */))
-const _065b094d = () => interopDefault(import('..\\pages\\admin\\notification\\send.vue' /* webpackChunkName: "pages/admin/notification/send" */))
-const _4a192260 = () => interopDefault(import('..\\pages\\admin\\signals\\add.vue' /* webpackChunkName: "pages/admin/signals/add" */))
-const _35e45794 = () => interopDefault(import('..\\pages\\admin\\traders\\add.vue' /* webpackChunkName: "pages/admin/traders/add" */))
-const _9487b8e0 = () => interopDefault(import('..\\pages\\dashboard\\loan\\request.vue' /* webpackChunkName: "pages/dashboard/loan/request" */))
-const _144dca0a = () => interopDefault(import('..\\pages\\dashboard\\trade\\copy.vue' /* webpackChunkName: "pages/dashboard/trade/copy" */))
-const _6c8b0c7d = () => interopDefault(import('..\\pages\\dashboard\\trade\\signal.vue' /* webpackChunkName: "pages/dashboard/trade/signal" */))
-const _731c4336 = () => interopDefault(import('..\\pages\\dashboard\\withdraw\\request.vue' /* webpackChunkName: "pages/dashboard/withdraw/request" */))
-const _58d7358a = () => interopDefault(import('..\\pages\\admin\\account\\wallets\\add.vue' /* webpackChunkName: "pages/admin/account/wallets/add" */))
-const _0002c9ce = () => interopDefault(import('..\\pages\\admin\\account\\wallets\\edit\\_id.vue' /* webpackChunkName: "pages/admin/account/wallets/edit/_id" */))
-const _2ef7fdca = () => interopDefault(import('..\\pages\\admin\\user\\edit\\_id.vue' /* webpackChunkName: "pages/admin/user/edit/_id" */))
-const _7942daf6 = () => interopDefault(import('..\\pages\\admin\\notification\\_id.vue' /* webpackChunkName: "pages/admin/notification/_id" */))
-const _f86cce62 = () => interopDefault(import('..\\pages\\admin\\traders\\_id.vue' /* webpackChunkName: "pages/admin/traders/_id" */))
-const _719589a5 = () => interopDefault(import('..\\pages\\admin\\user\\_id.vue' /* webpackChunkName: "pages/admin/user/_id" */))
-const _dd029ca8 = () => interopDefault(import('..\\pages\\auth\\confirm-email\\_token.vue' /* webpackChunkName: "pages/auth/confirm-email/_token" */))
-const _3edf7100 = () => interopDefault(import('..\\pages\\auth\\reset-password\\_token.vue' /* webpackChunkName: "pages/auth/reset-password/_token" */))
-const _1c52e668 = () => interopDefault(import('..\\pages\\dashboard\\account\\_id.vue' /* webpackChunkName: "pages/dashboard/account/_id" */))
-const _6aa9210a = () => interopDefault(import('..\\pages\\dashboard\\deposit\\_id.vue' /* webpackChunkName: "pages/dashboard/deposit/_id" */))
-const _0fe3a331 = () => interopDefault(import('..\\pages\\dashboard\\notifications\\_id.vue' /* webpackChunkName: "pages/dashboard/notifications/_id" */))
-const _430fc935 = () => interopDefault(import('..\\pages\\dashboard\\trade\\_id.vue' /* webpackChunkName: "pages/dashboard/trade/_id" */))
-const _9a31b46c = () => interopDefault(import('..\\pages\\verification\\_id.vue' /* webpackChunkName: "pages/verification/_id" */))
-const _0930689d = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _c109a05a = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _529e3d50 = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _a0294934 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _5e2aaf5d = () => interopDefault(import('../pages/dashboard/index.vue' /* webpackChunkName: "pages/dashboard/index" */))
+const _5ed8161c = () => interopDefault(import('../pages/login/index.vue' /* webpackChunkName: "pages/login/index" */))
+const _ee5a5ce0 = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
+const _1c353a2a = () => interopDefault(import('../pages/trade.vue' /* webpackChunkName: "pages/trade" */))
+const _01d04df6 = () => interopDefault(import('../pages/admin/account/index.vue' /* webpackChunkName: "pages/admin/account/index" */))
+const _55da9a5a = () => interopDefault(import('../pages/admin/managers/index.vue' /* webpackChunkName: "pages/admin/managers/index" */))
+const _fa080bd0 = () => interopDefault(import('../pages/admin/notification/index.vue' /* webpackChunkName: "pages/admin/notification/index" */))
+const _14947474 = () => interopDefault(import('../pages/admin/otp/index.vue' /* webpackChunkName: "pages/admin/otp/index" */))
+const _36387d14 = () => interopDefault(import('../pages/admin/signals/index.vue' /* webpackChunkName: "pages/admin/signals/index" */))
+const _6f6ac46e = () => interopDefault(import('../pages/admin/traders/index.vue' /* webpackChunkName: "pages/admin/traders/index" */))
+const _f02603fc = () => interopDefault(import('../pages/admin/transactions/index.vue' /* webpackChunkName: "pages/admin/transactions/index" */))
+const _121b720a = () => interopDefault(import('../pages/dashboard/account/index.vue' /* webpackChunkName: "pages/dashboard/account/index" */))
+const _38b9ba2c = () => interopDefault(import('../pages/dashboard/deposit/index.vue' /* webpackChunkName: "pages/dashboard/deposit/index" */))
+const _43f42427 = () => interopDefault(import('../pages/dashboard/home/index.vue' /* webpackChunkName: "pages/dashboard/home/index" */))
+const _a9bc5a10 = () => interopDefault(import('../pages/dashboard/loan/index.vue' /* webpackChunkName: "pages/dashboard/loan/index" */))
+const _8d923c94 = () => interopDefault(import('../pages/dashboard/notifications/index.vue' /* webpackChunkName: "pages/dashboard/notifications/index" */))
+const _6f67939c = () => interopDefault(import('../pages/dashboard/trade/index.vue' /* webpackChunkName: "pages/dashboard/trade/index" */))
+const _1d13782a = () => interopDefault(import('../pages/dashboard/upgrade/index.vue' /* webpackChunkName: "pages/dashboard/upgrade/index" */))
+const _851cfbdc = () => interopDefault(import('../pages/dashboard/withdraw/index.vue' /* webpackChunkName: "pages/dashboard/withdraw/index" */))
+const _b6687770 = () => interopDefault(import('../pages/password/reset/index.vue' /* webpackChunkName: "pages/password/reset/index" */))
+const _42898962 = () => interopDefault(import('../pages/admin/managers/add.vue' /* webpackChunkName: "pages/admin/managers/add" */))
+const _99ac0e9c = () => interopDefault(import('../pages/admin/notification/send.vue' /* webpackChunkName: "pages/admin/notification/send" */))
+const _476eefe3 = () => interopDefault(import('../pages/admin/signals/add.vue' /* webpackChunkName: "pages/admin/signals/add" */))
+const _89417486 = () => interopDefault(import('../pages/admin/traders/add.vue' /* webpackChunkName: "pages/admin/traders/add" */))
+const _c532ea96 = () => interopDefault(import('../pages/dashboard/loan/request.vue' /* webpackChunkName: "pages/dashboard/loan/request" */))
+const _f29c1a76 = () => interopDefault(import('../pages/dashboard/trade/copy.vue' /* webpackChunkName: "pages/dashboard/trade/copy" */))
+const _52f01b10 = () => interopDefault(import('../pages/dashboard/trade/signal.vue' /* webpackChunkName: "pages/dashboard/trade/signal" */))
+const _5a86db4f = () => interopDefault(import('../pages/dashboard/withdraw/request.vue' /* webpackChunkName: "pages/dashboard/withdraw/request" */))
+const _0def73d0 = () => interopDefault(import('../pages/admin/account/wallets/add.vue' /* webpackChunkName: "pages/admin/account/wallets/add" */))
+const _0fcb4d96 = () => interopDefault(import('../pages/admin/account/wallets/edit/_id.vue' /* webpackChunkName: "pages/admin/account/wallets/edit/_id" */))
+const _1a8ab0ff = () => interopDefault(import('../pages/admin/user/edit/_id.vue' /* webpackChunkName: "pages/admin/user/edit/_id" */))
+const _3d75640a = () => interopDefault(import('../pages/admin/managers/_id.vue' /* webpackChunkName: "pages/admin/managers/_id" */))
+const _6e1cbb00 = () => interopDefault(import('../pages/admin/notification/_id.vue' /* webpackChunkName: "pages/admin/notification/_id" */))
+const _5a1b0a56 = () => interopDefault(import('../pages/admin/traders/_id.vue' /* webpackChunkName: "pages/admin/traders/_id" */))
+const _0818d140 = () => interopDefault(import('../pages/admin/user/_id.vue' /* webpackChunkName: "pages/admin/user/_id" */))
+const _8ccbc3f2 = () => interopDefault(import('../pages/auth/confirm-email/_token.vue' /* webpackChunkName: "pages/auth/confirm-email/_token" */))
+const _667447f3 = () => interopDefault(import('../pages/auth/reset-password/_token.vue' /* webpackChunkName: "pages/auth/reset-password/_token" */))
+const _4acbcc23 = () => interopDefault(import('../pages/dashboard/account/_id.vue' /* webpackChunkName: "pages/dashboard/account/_id" */))
+const _49885794 = () => interopDefault(import('../pages/dashboard/deposit/_id.vue' /* webpackChunkName: "pages/dashboard/deposit/_id" */))
+const _695dd99e = () => interopDefault(import('../pages/dashboard/notifications/_id.vue' /* webpackChunkName: "pages/dashboard/notifications/_id" */))
+const _1d761d1a = () => interopDefault(import('../pages/dashboard/trade/_id.vue' /* webpackChunkName: "pages/dashboard/trade/_id" */))
+const _334f6320 = () => interopDefault(import('../pages/verification/_id.vue' /* webpackChunkName: "pages/verification/_id" */))
+const _8199ead0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -61,175 +64,187 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _2d0ee450,
+    component: _c109a05a,
     name: "about"
   }, {
     path: "/admin",
-    component: _413c16a8,
+    component: _529e3d50,
     name: "admin"
   }, {
     path: "/contact",
-    component: _70094c2b,
+    component: _a0294934,
     name: "contact"
   }, {
     path: "/dashboard",
-    component: _2a65387a,
+    component: _5e2aaf5d,
     name: "dashboard"
   }, {
     path: "/login",
-    component: _f8891364,
+    component: _5ed8161c,
     name: "login"
   }, {
     path: "/register",
-    component: _7c26724c,
+    component: _ee5a5ce0,
     name: "register"
   }, {
     path: "/trade",
-    component: _6632982f,
+    component: _1c353a2a,
     name: "trade"
   }, {
     path: "/admin/account",
-    component: _bc097fc2,
+    component: _01d04df6,
     name: "admin-account"
   }, {
+    path: "/admin/managers",
+    component: _55da9a5a,
+    name: "admin-managers"
+  }, {
     path: "/admin/notification",
-    component: _d4260646,
+    component: _fa080bd0,
     name: "admin-notification"
   }, {
     path: "/admin/otp",
-    component: _ef8c7d3e,
+    component: _14947474,
     name: "admin-otp"
   }, {
     path: "/admin/signals",
-    component: _0ace167e,
+    component: _36387d14,
     name: "admin-signals"
   }, {
     path: "/admin/traders",
-    component: _30a0ceb2,
+    component: _6f6ac46e,
     name: "admin-traders"
   }, {
     path: "/admin/transactions",
-    component: _2f1c7633,
+    component: _f02603fc,
     name: "admin-transactions"
   }, {
     path: "/dashboard/account",
-    component: _064f8164,
+    component: _121b720a,
     name: "dashboard-account"
   }, {
     path: "/dashboard/deposit",
-    component: _0513175a,
+    component: _38b9ba2c,
     name: "dashboard-deposit"
   }, {
     path: "/dashboard/home",
-    component: _50b48978,
+    component: _43f42427,
     name: "dashboard-home"
   }, {
     path: "/dashboard/loan",
-    component: _562de693,
+    component: _a9bc5a10,
     name: "dashboard-loan"
   }, {
     path: "/dashboard/notifications",
-    component: _551edaee,
+    component: _8d923c94,
     name: "dashboard-notifications"
   }, {
     path: "/dashboard/trade",
-    component: _23a970e6,
+    component: _6f67939c,
     name: "dashboard-trade"
   }, {
     path: "/dashboard/upgrade",
-    component: _b75713d6,
+    component: _1d13782a,
     name: "dashboard-upgrade"
   }, {
     path: "/dashboard/withdraw",
-    component: _583db7b9,
+    component: _851cfbdc,
     name: "dashboard-withdraw"
   }, {
     path: "/password/reset",
-    component: _008ccdc3,
+    component: _b6687770,
     name: "password-reset"
   }, {
+    path: "/admin/managers/add",
+    component: _42898962,
+    name: "admin-managers-add"
+  }, {
     path: "/admin/notification/send",
-    component: _065b094d,
+    component: _99ac0e9c,
     name: "admin-notification-send"
   }, {
     path: "/admin/signals/add",
-    component: _4a192260,
+    component: _476eefe3,
     name: "admin-signals-add"
   }, {
     path: "/admin/traders/add",
-    component: _35e45794,
+    component: _89417486,
     name: "admin-traders-add"
   }, {
     path: "/dashboard/loan/request",
-    component: _9487b8e0,
+    component: _c532ea96,
     name: "dashboard-loan-request"
   }, {
     path: "/dashboard/trade/copy",
-    component: _144dca0a,
+    component: _f29c1a76,
     name: "dashboard-trade-copy"
   }, {
     path: "/dashboard/trade/signal",
-    component: _6c8b0c7d,
+    component: _52f01b10,
     name: "dashboard-trade-signal"
   }, {
     path: "/dashboard/withdraw/request",
-    component: _731c4336,
+    component: _5a86db4f,
     name: "dashboard-withdraw-request"
   }, {
     path: "/admin/account/wallets/add",
-    component: _58d7358a,
+    component: _0def73d0,
     name: "admin-account-wallets-add"
   }, {
     path: "/admin/account/wallets/edit/:id?",
-    component: _0002c9ce,
+    component: _0fcb4d96,
     name: "admin-account-wallets-edit-id"
   }, {
     path: "/admin/user/edit/:id?",
-    component: _2ef7fdca,
+    component: _1a8ab0ff,
     name: "admin-user-edit-id"
   }, {
+    path: "/admin/managers/:id",
+    component: _3d75640a,
+    name: "admin-managers-id"
+  }, {
     path: "/admin/notification/:id",
-    component: _7942daf6,
+    component: _6e1cbb00,
     name: "admin-notification-id"
   }, {
     path: "/admin/traders/:id",
-    component: _f86cce62,
+    component: _5a1b0a56,
     name: "admin-traders-id"
   }, {
     path: "/admin/user/:id?",
-    component: _719589a5,
+    component: _0818d140,
     name: "admin-user-id"
   }, {
     path: "/auth/confirm-email/:token?",
-    component: _dd029ca8,
+    component: _8ccbc3f2,
     name: "auth-confirm-email-token"
   }, {
     path: "/auth/reset-password/:token?",
-    component: _3edf7100,
+    component: _667447f3,
     name: "auth-reset-password-token"
   }, {
     path: "/dashboard/account/:id",
-    component: _1c52e668,
+    component: _4acbcc23,
     name: "dashboard-account-id"
   }, {
     path: "/dashboard/deposit/:id",
-    component: _6aa9210a,
+    component: _49885794,
     name: "dashboard-deposit-id"
   }, {
     path: "/dashboard/notifications/:id",
-    component: _0fe3a331,
+    component: _695dd99e,
     name: "dashboard-notifications-id"
   }, {
     path: "/dashboard/trade/:id",
-    component: _430fc935,
+    component: _1d761d1a,
     name: "dashboard-trade-id"
   }, {
     path: "/verification/:id?",
-    component: _9a31b46c,
+    component: _334f6320,
     name: "verification-id"
   }, {
     path: "/",
-    component: _0930689d,
+    component: _8199ead0,
     name: "index"
   }],
 

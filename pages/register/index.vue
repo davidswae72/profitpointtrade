@@ -1,133 +1,4 @@
 <template>
-  <!-- <v-container fluid class="pa-0 bg-welcome">
-    <v-row style="" align="center" justify="center" class="py-10">
-      <v-col cols="12" class="mx-auto d-flex flex-column align-center">
-        <v-card
-          max-width="500"
-          style="background-color: rgba(255, 255, 255, 0.73)"
-          flat
-          color=""
-          rounded="xl"
-          class="py-6"
-        >
-          <v-card-title
-            class="
-              flex-column
-              justify-center
-              font-weight-light
-              text-subtitle-1 text-md-h6
-              my-2
-            "
-          >
-            <div class="font-weight-bold text-h6 text3--text text-sm-h5">
-              Sign Up to Profit Point Trade-Nft
-            </div>
-            <div class="text-subtitle-1 mt-2 text1--text font-weight-light">
-              Sign Up to Profit Point Trade-Nft
-            </div>
-          </v-card-title>
-          <v-card-text>
-            <v-form
-              ref="form"
-              v-model="valid"
-              lazy-validation
-              class="pb-2"
-              @submit.prevent="submit"
-            >
-              <v-row no-gutters class="pb-4">
-                <v-col cols="12" class="py-0">
-                  <v-text-field
-                    v-model="fullName"
-                    name="fullName"
-                    type="text"
-                    solo
-                    flat
-                    style="border-radius: 14px"
-                    class="text-subtitle-1 mx-1 font-weight-light"
-                    color="primary"
-                    label="Full Name"
-                    required
-                    :rules="fullNameRules"
-                  />
-                </v-col>
-
-                <v-col cols="12" class="py-0">
-                  <v-text-field
-                    v-model="email"
-                    name="email"
-                    type="text"
-                    solo
-                    flat
-                    style="border-radius: 14px"
-                    class="text-subtitle-1 mx-1 font-weight-light"
-                    color="primary"
-                    label="Email"
-                    required
-                    :rules="emailRules"
-                  />
-                </v-col>
-
-                <v-col cols="12" class="py-0">
-                  <v-text-field
-                    v-model="password"
-                    :type="show ? 'text' : 'password'"
-                    name="password"
-                    solo
-                    flat
-                    style="border-radius: 14px"
-                    color="primary"
-                    label="Password"
-                    required
-                    class="text-subtitle-1 mx-1 font-weight-light"
-                    :rules="passwordRules"
-                    :append-icon="show ? 'mdi-eye' : 'mdi-eye-off'"
-                    hint="Password must be 8 characters long and contain atleast one lowercase, uppercase, number and special character"
-                    @click:append="show = !show"
-                  />
-                </v-col>
-                <v-col cols="12" class="py-0">
-                  <v-text-field
-                    v-model="confirmPassword"
-                    :type="show1 ? 'text' : 'password'"
-                    name="confirmPassword"
-                    solo
-                    flat
-                    style="border-radius: 14px"
-                    color="primary"
-                    label="Confirm Password"
-                    required
-                    class="text-subtitle-1 mx-1 font-weight-light"
-                    :rules="[confirmPasswordRules, passwordConfirmationRule]"
-                    :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
-                    @click:append="show1 = !show1"
-                  />
-                </v-col>
-                <v-col cols="12" class="py-0">
-                  <v-btn
-                    depressed
-                    type="submit"
-                    large
-                    style="border-radius: 14px"
-                    block
-                    :loading="loading.register"
-                    color="primary"
-                    class="
-                      text-capitalize
-                      mx-1
-                      text-subtitle-1
-                      font-weight-bold
-                    "
-                  >
-                    Sign Up
-                  </v-btn>
-                </v-col>
-              </v-row>
-            </v-form>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container> -->
   <v-container fluid class="dark pt-16">
     <v-row justify="center" class="dark">
       <v-col cols="12" sm="8" md="6" lg="6" class="mx-auto">
@@ -166,6 +37,11 @@
                   Create a trading account with
                   <span class="secondary--text">Profit Point Trade</span>
                 </p>
+              </v-col>
+              <v-col cols="12">
+                <span class="text-subtitle-1 font-weight-bold secondary--text">
+                  Personal Details</span
+                >
               </v-col>
               <v-col cols="12" class="py-0">
                 <v-text-field
@@ -250,6 +126,37 @@
                   required
                 />
               </v-col>
+              <v-col cols="12" class="pt-0">
+                <span class="text-subtitle-1 font-weight-bold secondary--text">
+                  Other Details</span
+                >
+              </v-col>
+              <v-col cols="12" class="py-0">
+                <v-select
+                  v-model="plan"
+                  filled
+                  color="secondary"
+                  :items="['Basic', 'Standard', 'Premium', 'Ultimate']"
+                  class="text-subtitle-2 dark font-weight-medium rounded-lg"
+                  :rules="[(v) => !!v || 'Plan is required']"
+                  label="Plan"
+                  required
+                />
+              </v-col>
+              <v-col cols="12" class="py-0">
+                <v-select
+                  v-model="accManager"
+                  filled
+                  color="secondary"
+                  item-text="name"
+                  return-object
+                  :items="managers"
+                  class="text-subtitle-2 dark font-weight-medium rounded-lg"
+                  :rules="[(v) => !!v || 'Currency is required']"
+                  label="Account Manager"
+                  required
+                />
+              </v-col>
               <v-col cols="12" class="py-0">
                 <v-checkbox
                   v-model="acceptTerms"
@@ -263,7 +170,8 @@
                 >
                   <template v-slot:label>
                     <div class="text-caption light--text">
-                      I accept the Profit Point Trade AUS Service (by Gleneagle) -
+                      I accept the Profit Point Trade AUS Service (by Gleneagle)
+                      -
                       <nuxt-link tag="a" class="secondary--text" to="#">
                         Terms & Conditions, Product Disclosure Statement
                       </nuxt-link>
@@ -332,6 +240,9 @@ export default {
     fullName: "",
     phoneNumber: "",
 
+    plan: "",
+    accManager: "",
+
     password: "",
     passwordRules: [
       (v) => !!v || "Password is required",
@@ -346,8 +257,12 @@ export default {
       loading: "authentication/getLoading",
       countries: "authentication/getCountries",
       state: "controller/getState",
+      adminState: "admin/getState",
     }),
 
+    managers() {
+      return this.adminState("managers");
+    },
     referred() {
       return this.$route.query.ref;
     },
@@ -393,6 +308,8 @@ export default {
           phoneNumber: this.phoneNumber,
           country: this.country,
           symbol: this.getSymbol(this.currency),
+          plan: this.plan,
+          accManager: this.accManager,
           date: this.getDate("current"),
         };
 

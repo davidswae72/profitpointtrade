@@ -166,9 +166,9 @@
                 class="light--text text-subtitle-2 tet-subtitle-1 font-weight-light"
               >
                 With innovative investment tools and a collaborative trading
-                community, Profit Point Trade empowers millions of users
-                in over 140 countries to trade and invest in a simple and
-                transparent way.
+                community, Profit Point Trade empowers millions of users in over
+                140 countries to trade and invest in a simple and transparent
+                way.
               </p>
               <div class="my-4">
                 <v-btn depressed small fab color="secondary" class="mx-2">
@@ -338,6 +338,7 @@ export default {
   async created() {
     // await this.$store.dispatch("controller/runApp");
     await this.$store.dispatch("controller/initCurrency");
+    await this.$store.dispatch("admin/initManagers");
   },
   head() {
     return {

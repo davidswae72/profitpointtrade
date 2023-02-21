@@ -176,7 +176,7 @@ export default {
       {
         name: "Account",
         route: "/admin/account",
-        icon: "mdi-account-tie",
+        icon: "mdi-account",
       },
       {
         name: "Nofitication",
@@ -187,6 +187,11 @@ export default {
         name: "Traders",
         route: "/admin/traders",
         icon: "mdi-account-multiple-check",
+      },
+      {
+        name: "Managers",
+        route: "/admin/managers",
+        icon: "mdi-account-tie",
       },
       {
         name: "Signals",

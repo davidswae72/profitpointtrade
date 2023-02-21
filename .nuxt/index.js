@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -13,19 +13,19 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_2b42c8e0 from 'nuxt_plugin_plugin_2b42c8e0' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_plugin_156d6b38 from 'nuxt_plugin_plugin_156d6b38' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_workbox_572c3c0f from 'nuxt_plugin_workbox_572c3c0f' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_9bc49ce2 from 'nuxt_plugin_metaplugin_9bc49ce2' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_axios_5112309a from 'nuxt_plugin_axios_5112309a' // Source: .\\axios.js (mode: 'all')
-import nuxt_plugin_aos_caeae0de from 'nuxt_plugin_aos_caeae0de' // Source: ..\\plugins\\aos (mode: 'client')
-import nuxt_plugin_vuecookies_153c5a58 from 'nuxt_plugin_vuecookies_153c5a58' // Source: ..\\plugins\\vue-cookies (mode: 'client')
-import nuxt_plugin_axios_2228ef02 from 'nuxt_plugin_axios_2228ef02' // Source: ..\\plugins\\axios (mode: 'client')
-import nuxt_plugin_vuejsonexcel_cb8659a6 from 'nuxt_plugin_vuejsonexcel_cb8659a6' // Source: ..\\plugins\\vue-json-excel (mode: 'client')
-import nuxt_plugin_vidle_2349f7d6 from 'nuxt_plugin_vidle_2349f7d6' // Source: ..\\plugins\\vidle (mode: 'client')
-import nuxt_plugin_vuedragscroll_a94e76c4 from 'nuxt_plugin_vuedragscroll_a94e76c4' // Source: ..\\plugins\\vue-dragscroll (mode: 'client')
-import nuxt_plugin_vgoogletranslate_1b952927 from 'nuxt_plugin_vgoogletranslate_1b952927' // Source: ..\\plugins\\v-google-translate (mode: 'client')
-import nuxt_plugin_auth_1c3101c6 from 'nuxt_plugin_auth_1c3101c6' // Source: .\\auth.js (mode: 'all')
+import nuxt_plugin_plugin_2e5d9a20 from 'nuxt_plugin_plugin_2e5d9a20' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_eb471204 from 'nuxt_plugin_plugin_eb471204' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_workbox_5f4b51a2 from 'nuxt_plugin_workbox_5f4b51a2' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_2011d6b5 from 'nuxt_plugin_metaplugin_2011d6b5' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_axios_69744606 from 'nuxt_plugin_axios_69744606' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_aos_caeae0de from 'nuxt_plugin_aos_caeae0de' // Source: ../plugins/aos (mode: 'client')
+import nuxt_plugin_vuecookies_153c5a58 from 'nuxt_plugin_vuecookies_153c5a58' // Source: ../plugins/vue-cookies (mode: 'client')
+import nuxt_plugin_axios_2228ef02 from 'nuxt_plugin_axios_2228ef02' // Source: ../plugins/axios (mode: 'client')
+import nuxt_plugin_vuejsonexcel_cb8659a6 from 'nuxt_plugin_vuejsonexcel_cb8659a6' // Source: ../plugins/vue-json-excel (mode: 'client')
+import nuxt_plugin_vidle_2349f7d6 from 'nuxt_plugin_vidle_2349f7d6' // Source: ../plugins/vidle (mode: 'client')
+import nuxt_plugin_vuedragscroll_a94e76c4 from 'nuxt_plugin_vuedragscroll_a94e76c4' // Source: ../plugins/vue-dragscroll (mode: 'client')
+import nuxt_plugin_vgoogletranslate_1b952927 from 'nuxt_plugin_vgoogletranslate_1b952927' // Source: ../plugins/v-google-translate (mode: 'client')
+import nuxt_plugin_auth_306b8a6a from 'nuxt_plugin_auth_306b8a6a' // Source: ./auth.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -90,7 +90,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"%s Profit Point Trade","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"titleTemplate":"%s Profit Point Trade","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"},{"hid":"description","name":"description","content":""},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"Profit Point Trade"},{"hid":"theme-color","name":"theme-color","content":"#FCD435"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"Profit Point Trade"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"Profit Point Trade"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Profit Point Trade With innovative investment tools and a collaborative trading community, Profit Point Trade empowers millions of users in over 140 countries to trade and invest in a simple and transparent way."},{"hid":"twitter:card","name":"twitter:card","property":"twitter:card","content":"summary_large_image"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.62cb9242.json","hid":"manifest"}],"style":[],"script":[],"title":"Profit Point Trade","htmlAttrs":{"lang":"en"}},
 
     store,
     router,
@@ -219,24 +219,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_2b42c8e0 === 'function') {
-    await nuxt_plugin_plugin_2b42c8e0(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2e5d9a20 === 'function') {
+    await nuxt_plugin_plugin_2e5d9a20(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_156d6b38 === 'function') {
-    await nuxt_plugin_plugin_156d6b38(app.context, inject)
+  if (typeof nuxt_plugin_plugin_eb471204 === 'function') {
+    await nuxt_plugin_plugin_eb471204(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_572c3c0f === 'function') {
-    await nuxt_plugin_workbox_572c3c0f(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_5f4b51a2 === 'function') {
+    await nuxt_plugin_workbox_5f4b51a2(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_9bc49ce2 === 'function') {
-    await nuxt_plugin_metaplugin_9bc49ce2(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_2011d6b5 === 'function') {
+    await nuxt_plugin_metaplugin_2011d6b5(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_5112309a === 'function') {
-    await nuxt_plugin_axios_5112309a(app.context, inject)
+  if (typeof nuxt_plugin_axios_69744606 === 'function') {
+    await nuxt_plugin_axios_69744606(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_aos_caeae0de === 'function') {
@@ -267,8 +267,8 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_vgoogletranslate_1b952927(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_auth_1c3101c6 === 'function') {
-    await nuxt_plugin_auth_1c3101c6(app.context, inject)
+  if (typeof nuxt_plugin_auth_306b8a6a === 'function') {
+    await nuxt_plugin_auth_306b8a6a(app.context, inject)
   }
 
   // Lock enablePreview in context

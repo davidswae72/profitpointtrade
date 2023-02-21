@@ -2,16 +2,16 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\animate.css\\animate.min.css'
+import '../node_modules/animate.css/animate.min.css'
 
-import _77068119 from '..\\layouts\\admin.vue'
-import _5fa3735e from '..\\layouts\\dashboard.vue'
-import _6f6c098b from '..\\layouts\\default.vue'
-import _5cd7ceac from '..\\layouts\\welcome.vue'
+import _77068119 from '../layouts/admin.vue'
+import _5fa3735e from '../layouts/dashboard.vue'
+import _6f6c098b from '../layouts/default.vue'
+import _5cd7ceac from '../layouts/welcome.vue'
 
 const layouts = { "_admin": sanitizeComponent(_77068119),"_dashboard": sanitizeComponent(_5fa3735e),"_default": sanitizeComponent(_6f6c098b),"_welcome": sanitizeComponent(_5cd7ceac) }
 

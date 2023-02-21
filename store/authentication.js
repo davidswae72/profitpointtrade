@@ -166,6 +166,7 @@ export const actions = {
           account: {
             status: false,
             level: 0,
+            manager : user.accManager
           }
           
         })

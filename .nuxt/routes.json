@@ -2,259 +2,323 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_c109a05a"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\index.vue",
-    "chunkName": "pages/admin/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_529e3d50"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_a0294934"
   },
   {
     "name": "dashboard",
     "path": "/dashboard",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\index.vue",
-    "chunkName": "pages/dashboard/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/index.vue",
+    "chunkName": "pages/dashboard/index",
+    "_name": "_5e2aaf5d"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\login\\\\index.vue",
-    "chunkName": "pages/login/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_5ed8161c"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\register\\\\index.vue",
-    "chunkName": "pages/register/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/register/index.vue",
+    "chunkName": "pages/register/index",
+    "_name": "_ee5a5ce0"
   },
   {
     "name": "trade",
     "path": "/trade",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\trade.vue",
-    "chunkName": "pages/trade"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/trade.vue",
+    "chunkName": "pages/trade",
+    "_name": "_1c353a2a"
   },
   {
     "name": "admin-account",
     "path": "/admin/account",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\account\\\\index.vue",
-    "chunkName": "pages/admin/account/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/account/index.vue",
+    "chunkName": "pages/admin/account/index",
+    "_name": "_01d04df6"
+  },
+  {
+    "name": "admin-managers",
+    "path": "/admin/managers",
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/managers/index.vue",
+    "chunkName": "pages/admin/managers/index",
+    "_name": "_55da9a5a"
   },
   {
     "name": "admin-notification",
     "path": "/admin/notification",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\notification\\\\index.vue",
-    "chunkName": "pages/admin/notification/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/notification/index.vue",
+    "chunkName": "pages/admin/notification/index",
+    "_name": "_fa080bd0"
   },
   {
     "name": "admin-otp",
     "path": "/admin/otp",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\otp\\\\index.vue",
-    "chunkName": "pages/admin/otp/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/otp/index.vue",
+    "chunkName": "pages/admin/otp/index",
+    "_name": "_14947474"
   },
   {
     "name": "admin-signals",
     "path": "/admin/signals",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\signals\\\\index.vue",
-    "chunkName": "pages/admin/signals/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/signals/index.vue",
+    "chunkName": "pages/admin/signals/index",
+    "_name": "_36387d14"
   },
   {
     "name": "admin-traders",
     "path": "/admin/traders",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\traders\\\\index.vue",
-    "chunkName": "pages/admin/traders/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/traders/index.vue",
+    "chunkName": "pages/admin/traders/index",
+    "_name": "_6f6ac46e"
   },
   {
     "name": "admin-transactions",
     "path": "/admin/transactions",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\transactions\\\\index.vue",
-    "chunkName": "pages/admin/transactions/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/transactions/index.vue",
+    "chunkName": "pages/admin/transactions/index",
+    "_name": "_f02603fc"
   },
   {
     "name": "dashboard-account",
     "path": "/dashboard/account",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\account\\\\index.vue",
-    "chunkName": "pages/dashboard/account/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/account/index.vue",
+    "chunkName": "pages/dashboard/account/index",
+    "_name": "_121b720a"
   },
   {
     "name": "dashboard-deposit",
     "path": "/dashboard/deposit",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\deposit\\\\index.vue",
-    "chunkName": "pages/dashboard/deposit/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/deposit/index.vue",
+    "chunkName": "pages/dashboard/deposit/index",
+    "_name": "_38b9ba2c"
   },
   {
     "name": "dashboard-home",
     "path": "/dashboard/home",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\home\\\\index.vue",
-    "chunkName": "pages/dashboard/home/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/home/index.vue",
+    "chunkName": "pages/dashboard/home/index",
+    "_name": "_43f42427"
   },
   {
     "name": "dashboard-loan",
     "path": "/dashboard/loan",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\loan\\\\index.vue",
-    "chunkName": "pages/dashboard/loan/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/loan/index.vue",
+    "chunkName": "pages/dashboard/loan/index",
+    "_name": "_a9bc5a10"
   },
   {
     "name": "dashboard-notifications",
     "path": "/dashboard/notifications",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\notifications\\\\index.vue",
-    "chunkName": "pages/dashboard/notifications/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/notifications/index.vue",
+    "chunkName": "pages/dashboard/notifications/index",
+    "_name": "_8d923c94"
   },
   {
     "name": "dashboard-trade",
     "path": "/dashboard/trade",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\trade\\\\index.vue",
-    "chunkName": "pages/dashboard/trade/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/trade/index.vue",
+    "chunkName": "pages/dashboard/trade/index",
+    "_name": "_6f67939c"
   },
   {
     "name": "dashboard-upgrade",
     "path": "/dashboard/upgrade",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\upgrade\\\\index.vue",
-    "chunkName": "pages/dashboard/upgrade/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/upgrade/index.vue",
+    "chunkName": "pages/dashboard/upgrade/index",
+    "_name": "_1d13782a"
   },
   {
     "name": "dashboard-withdraw",
     "path": "/dashboard/withdraw",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\withdraw\\\\index.vue",
-    "chunkName": "pages/dashboard/withdraw/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/withdraw/index.vue",
+    "chunkName": "pages/dashboard/withdraw/index",
+    "_name": "_851cfbdc"
   },
   {
     "name": "password-reset",
     "path": "/password/reset",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\password\\\\reset\\\\index.vue",
-    "chunkName": "pages/password/reset/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/password/reset/index.vue",
+    "chunkName": "pages/password/reset/index",
+    "_name": "_b6687770"
+  },
+  {
+    "name": "admin-managers-add",
+    "path": "/admin/managers/add",
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/managers/add.vue",
+    "chunkName": "pages/admin/managers/add",
+    "_name": "_42898962"
   },
   {
     "name": "admin-notification-send",
     "path": "/admin/notification/send",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\notification\\\\send.vue",
-    "chunkName": "pages/admin/notification/send"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/notification/send.vue",
+    "chunkName": "pages/admin/notification/send",
+    "_name": "_99ac0e9c"
   },
   {
     "name": "admin-signals-add",
     "path": "/admin/signals/add",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\signals\\\\add.vue",
-    "chunkName": "pages/admin/signals/add"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/signals/add.vue",
+    "chunkName": "pages/admin/signals/add",
+    "_name": "_476eefe3"
   },
   {
     "name": "admin-traders-add",
     "path": "/admin/traders/add",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\traders\\\\add.vue",
-    "chunkName": "pages/admin/traders/add"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/traders/add.vue",
+    "chunkName": "pages/admin/traders/add",
+    "_name": "_89417486"
   },
   {
     "name": "dashboard-loan-request",
     "path": "/dashboard/loan/request",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\loan\\\\request.vue",
-    "chunkName": "pages/dashboard/loan/request"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/loan/request.vue",
+    "chunkName": "pages/dashboard/loan/request",
+    "_name": "_c532ea96"
   },
   {
     "name": "dashboard-trade-copy",
     "path": "/dashboard/trade/copy",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\trade\\\\copy.vue",
-    "chunkName": "pages/dashboard/trade/copy"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/trade/copy.vue",
+    "chunkName": "pages/dashboard/trade/copy",
+    "_name": "_f29c1a76"
   },
   {
     "name": "dashboard-trade-signal",
     "path": "/dashboard/trade/signal",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\trade\\\\signal.vue",
-    "chunkName": "pages/dashboard/trade/signal"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/trade/signal.vue",
+    "chunkName": "pages/dashboard/trade/signal",
+    "_name": "_52f01b10"
   },
   {
     "name": "dashboard-withdraw-request",
     "path": "/dashboard/withdraw/request",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\withdraw\\\\request.vue",
-    "chunkName": "pages/dashboard/withdraw/request"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/withdraw/request.vue",
+    "chunkName": "pages/dashboard/withdraw/request",
+    "_name": "_5a86db4f"
   },
   {
     "name": "admin-account-wallets-add",
     "path": "/admin/account/wallets/add",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\account\\\\wallets\\\\add.vue",
-    "chunkName": "pages/admin/account/wallets/add"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/account/wallets/add.vue",
+    "chunkName": "pages/admin/account/wallets/add",
+    "_name": "_0def73d0"
   },
   {
     "name": "admin-account-wallets-edit-id",
     "path": "/admin/account/wallets/edit/:id?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\account\\\\wallets\\\\edit\\\\_id.vue",
-    "chunkName": "pages/admin/account/wallets/edit/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/account/wallets/edit/_id.vue",
+    "chunkName": "pages/admin/account/wallets/edit/_id",
+    "_name": "_0fcb4d96"
   },
   {
     "name": "admin-user-edit-id",
     "path": "/admin/user/edit/:id?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\user\\\\edit\\\\_id.vue",
-    "chunkName": "pages/admin/user/edit/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/user/edit/_id.vue",
+    "chunkName": "pages/admin/user/edit/_id",
+    "_name": "_1a8ab0ff"
+  },
+  {
+    "name": "admin-managers-id",
+    "path": "/admin/managers/:id",
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/managers/_id.vue",
+    "chunkName": "pages/admin/managers/_id",
+    "_name": "_3d75640a"
   },
   {
     "name": "admin-notification-id",
     "path": "/admin/notification/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\notification\\\\_id.vue",
-    "chunkName": "pages/admin/notification/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/notification/_id.vue",
+    "chunkName": "pages/admin/notification/_id",
+    "_name": "_6e1cbb00"
   },
   {
     "name": "admin-traders-id",
     "path": "/admin/traders/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\traders\\\\_id.vue",
-    "chunkName": "pages/admin/traders/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/traders/_id.vue",
+    "chunkName": "pages/admin/traders/_id",
+    "_name": "_5a1b0a56"
   },
   {
     "name": "admin-user-id",
     "path": "/admin/user/:id?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\admin\\\\user\\\\_id.vue",
-    "chunkName": "pages/admin/user/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/admin/user/_id.vue",
+    "chunkName": "pages/admin/user/_id",
+    "_name": "_0818d140"
   },
   {
     "name": "auth-confirm-email-token",
     "path": "/auth/confirm-email/:token?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\auth\\\\confirm-email\\\\_token.vue",
-    "chunkName": "pages/auth/confirm-email/_token"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/auth/confirm-email/_token.vue",
+    "chunkName": "pages/auth/confirm-email/_token",
+    "_name": "_8ccbc3f2"
   },
   {
     "name": "auth-reset-password-token",
     "path": "/auth/reset-password/:token?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\auth\\\\reset-password\\\\_token.vue",
-    "chunkName": "pages/auth/reset-password/_token"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/auth/reset-password/_token.vue",
+    "chunkName": "pages/auth/reset-password/_token",
+    "_name": "_667447f3"
   },
   {
     "name": "dashboard-account-id",
     "path": "/dashboard/account/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\account\\\\_id.vue",
-    "chunkName": "pages/dashboard/account/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/account/_id.vue",
+    "chunkName": "pages/dashboard/account/_id",
+    "_name": "_4acbcc23"
   },
   {
     "name": "dashboard-deposit-id",
     "path": "/dashboard/deposit/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\deposit\\\\_id.vue",
-    "chunkName": "pages/dashboard/deposit/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/deposit/_id.vue",
+    "chunkName": "pages/dashboard/deposit/_id",
+    "_name": "_49885794"
   },
   {
     "name": "dashboard-notifications-id",
     "path": "/dashboard/notifications/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\notifications\\\\_id.vue",
-    "chunkName": "pages/dashboard/notifications/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/notifications/_id.vue",
+    "chunkName": "pages/dashboard/notifications/_id",
+    "_name": "_695dd99e"
   },
   {
     "name": "dashboard-trade-id",
     "path": "/dashboard/trade/:id",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\dashboard\\\\trade\\\\_id.vue",
-    "chunkName": "pages/dashboard/trade/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/dashboard/trade/_id.vue",
+    "chunkName": "pages/dashboard/trade/_id",
+    "_name": "_1d761d1a"
   },
   {
     "name": "verification-id",
     "path": "/verification/:id?",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\verification\\\\_id.vue",
-    "chunkName": "pages/verification/_id"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/verification/_id.vue",
+    "chunkName": "pages/verification/_id",
+    "_name": "_334f6320"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\hp\\\\Documents\\\\nuxtW\\\\profitpointtrade\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/iWhyte/Documents/code/projects-2/profitpoint/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8199ead0"
   }
 ]

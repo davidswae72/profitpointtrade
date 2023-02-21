@@ -5,6 +5,9 @@
   "XSideBar": {
     "description": "Auto imported from components/xSideBar.vue"
   },
+  "TransactionsTransactionTable": {
+    "description": "Auto imported from components/transactions/transactionTable.vue"
+  },
   "PasswordOtp": {
     "description": "Auto imported from components/password/otp.vue"
   },
@@ -41,9 +44,6 @@
   "OtherPNotification": {
     "description": "Auto imported from components/other/pNotification.vue"
   },
-  "OtherPopup": {
-    "description": "Auto imported from components/other/popup.vue"
-  },
   "OtherPPattern": {
     "description": "Auto imported from components/other/pPattern.vue"
   },
@@ -77,6 +77,9 @@
   "OtherPWalletCards": {
     "description": "Auto imported from components/other/pWalletCards.vue"
   },
+  "OtherPopup": {
+    "description": "Auto imported from components/other/popup.vue"
+  },
   "OtherWActionsCard": {
     "description": "Auto imported from components/other/wActionsCard.vue"
   },
@@ -97,9 +100,6 @@
   },
   "OtherWWalletCard": {
     "description": "Auto imported from components/other/wWalletCard.vue"
-  },
-  "TransactionsTransactionTable": {
-    "description": "Auto imported from components/transactions/transactionTable.vue"
   },
   "UserNextofkin": {
     "description": "Auto imported from components/user/nextofkin.vue"

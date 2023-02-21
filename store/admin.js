@@ -21,6 +21,7 @@ export const state = () => ({
    scode:false,
    wcode:false,
    loan:false,
+   manager:false,
   },
 
   users: [],
@@ -30,6 +31,7 @@ export const state = () => ({
   investments: [],
   loans: [],
   traders:[],
+  managers:[],
   notifications:[],
   verifications:[],
 
@@ -59,6 +61,7 @@ export const getters = {
     const users = state.users
     return users.find(el => el.userID === id)
   },
+
 
 
   getDepositsByID : state => id =>{
@@ -159,6 +162,15 @@ export const getters = {
     }
   })
   return trader
+  },
+  getManagerByID : state => id =>{
+    let manager = {}
+    state.mangers.find(el => {
+    if(el.id === id){
+      manager = el
+    }
+  })
+  return manager
   },
 }
 
@@ -949,14 +961,13 @@ async initWcodes ({ commit, dispatch }) {
 
 },
 
+
 async updateTrader({commit, dispatch},payload){
 
   commit('setLoading', { type: 'trader', is: true })
 
   //Upload QRL Code
   try {
-
- 
      const ref = doc(db, "traders", payload.id);
      await updateDoc(ref, payload).then(async () => {
        commit('setLoading', { type: 'trader', is: false })
@@ -1017,6 +1028,28 @@ async updateTrader({commit, dispatch},payload){
   }
 },
 
+async deleteTrader({commit, dispatch},payload){
+
+  commit('setLoading', { type: 'trader', is: true })
+  try{
+
+    await deleteDoc(doc(db, "traders", payload.id));
+
+      commit('setLoading', { type: 'trader', is: false })
+
+      await dispatch('initTraders')
+      
+      console.log(`Trader deleted`)
+      dispatch('controller/initAlert', { is: true, persistence: true, type: 'success', message: `${payload.name} deleted successfully` }, { root: true })
+
+
+}catch(error) {
+  commit('setLoading', { type: 'trader', is: false })
+  console.log(error.message)
+  dispatch('controller/initAlert', { is: true, type: 'error', persistence: true, message: error.message }, {root:true})
+}
+},
+
 async deleteThisUser({commit, dispatch}, payload){
   commit('setLoading', { type: 'deleteUser', is: true })
 
@@ -1035,11 +1068,109 @@ async deleteThisUser({commit, dispatch}, payload){
   });
 },
 
+
+async initManagers ({ commit, dispatch }) {
+  commit('setLoading', { type: 'manager', is: true })
+  try {
+    const q = query(collection(db, "managers"));
+    
+    const arr = []
+    
+    const querySnapshot = await getDocs(q);
+    querySnapshot.forEach((doc) => {
+      // doc.data() is never undefined for query doc snapshots
+      arr.push(doc.data())
+    });
+    
+    console.log('managers', arr)
+
+    commit('setLoading', { type: 'manager', is: false })
+
+    commit('setState', { type: 'managers', value:arr })
+  }catch(error){
+    commit('setLoading', { type: 'manager', is: false })
+    dispatch(
+      "controller/initAlert",
+      {
+        is: true,
+        type: "error",
+        message:
+          error.message,
+      },{root:true}
+      
+    );
+  }
+},
+
+
+
+ async managerFN({commit, dispatch}, payload){
+  commit('setLoading', { type: 'manager', is: true })
+  try {
+   const docRef = await addDoc(collection(db, "managers"), payload);
+    await dispatch('controller/updateTransactionID', {col:'managers', id:docRef.id}, {root:true})
+
+    commit('setLoading', { type: 'manager', is: false })
+
+    await dispatch("initManagers")
+
+    dispatch(
+      "controller/initAlert",
+      {
+        is: true,
+        type: "success",
+        message:
+          'Manager created successfully'
+      },{root:true}
+      
+    );
+
+    this.$router.go(-1)
+    // console.log("Document written with ID: ", docRef.id);
+  }catch(error){
+    commit('setLoading', { type: 'manager', is: false })
+    dispatch(
+      "controller/initAlert",
+      {
+        is: true,
+        type: "error",
+        message:
+          error.message,
+      },{root:true}
+      
+    );
+  }
+
+},
+
+async deleteManager({commit, dispatch},payload){
+
+  commit('setLoading', { type: 'manager', is: true })
+  try{
+
+    await deleteDoc(doc(db, "managers", payload.id));
+
+      commit('setLoading', { type: 'manager', is: false })
+
+      await dispatch('initManagers')
+      
+      console.log(`Manager deleted`)
+      dispatch('controller/initAlert', { is: true, persistence: true, type: 'success', message: `${payload.name} deleted successfully` }, { root: true })
+
+
+}catch(error) {
+  commit('setLoading', { type: 'manager', is: false })
+  console.log(error.message)
+  dispatch('controller/initAlert', { is: true, type: 'error', persistence: true, message: error.message }, {root:true})
+}
+},
+
   initAdmin ({ dispatch }) {
     dispatch('initUsers')
     dispatch('initDeposits')
+    dispatch('initManagers')
     dispatch('initTraders')
-    dispatch('initLinkedwallets')
+    // dispatch('initLinkedwallets')
     dispatch('initWithdraws')
     dispatch('initLoans')
     dispatch('initScodes')

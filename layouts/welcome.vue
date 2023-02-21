@@ -35,6 +35,7 @@ export default {
   async created() {
     // await this.$store.dispatch("controller/runApp");
     await this.$store.dispatch("controller/initCurrency");
+    await this.$store.dispatch("admin/initManagers");
   },
   head() {
     return {
