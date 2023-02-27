@@ -115,6 +115,18 @@
                     class="text-subtitle-2 font-weight-light rounded-md"
                   />
                 </v-col>
+                <v-col cols="12" md="6" class="py-0 mb-n1">
+                  <v-text-field
+                    v-model="displaySignal"
+                    :disabled="user && user.block"
+                    type="number"
+                    name="withdraw"
+                    filled
+                    color="secondary"
+                    :label="`Signal Strength`"
+                    class="text-subtitle-2 font-weight-light rounded-md"
+                  />
+                </v-col>
 
                 <v-col cols="12" class="d-flex text-subtitle-2">
                   Advance Settings
@@ -350,6 +362,14 @@ export default {
       },
       set(val) {
         this.user.account.level = val;
+      },
+    },
+    displaySignal: {
+      get() {
+        return this.user && this.user.account.signal;
+      },
+      set(val) {
+        this.user.account.signal = val;
       },
     },
     displayBlock: {

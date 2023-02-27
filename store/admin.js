@@ -390,6 +390,12 @@ export const actions = {
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {
       // doc.data() is never undefined for query doc snapshots
+
+      // let newUser = doc.data()
+      // newUser.account.signal = 0
+      // dispatch('updateUser', newUser)
+      // console.log(newUser.name, ' Updated Successfully')
+
       users.push(doc.data())
     });
     commit('setState', { type: 'users', value:users })
@@ -702,6 +708,7 @@ export const actions = {
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {
       // doc.data() is never undefined for query doc snapshots
+      disp
       uploads.push(doc.data())
     });
     commit('setState', { type: 'uploads', value:uploads })

@@ -176,8 +176,8 @@
             </div>
             <v-spacer></v-spacer>
             <v-btn x-large outlined color="secondary" class="rounded-xl">
-              <div class="text-h5 font-weight-bold">
-                Lv {{ user && user.account.level }}
+              <div class="text-h3 font-weight-bold">
+                Trade Level {{ user && user.account.level }}
               </div>
               <div
                 style="width: 20px; height: 25px"

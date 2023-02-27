@@ -8,10 +8,12 @@
         <div>
           <div style="width: 100%" class="black px-4 py-2 mx-2 rounded-lg mb-4">
             <div class="text-caption d-flex align-center">
-              <span class="light--text">Trade Percent</span>
+              <span class="light--text">Signal Strength</span>
               <v-spacer></v-spacer>
               <span class="secondary--text text-subtitle-2 font-weight-bold"
-                >{{ user && user.account.level }}%</span
+                >{{
+                  user && user.account.signal ? user.account.signal : 0
+                }}%</span
               >
             </div>
             <v-progress-linear
