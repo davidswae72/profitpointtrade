@@ -127,7 +127,7 @@
                     class="text-subtitle-2 font-weight-light rounded-md"
                   />
                 </v-col>
-
+                <v-col cols="12" md="6" class="py-0 mb-n1"> </v-col>
                 <v-col cols="12" class="d-flex text-subtitle-2">
                   Advance Settings
                   <v-spacer />

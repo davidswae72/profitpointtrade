@@ -112,11 +112,21 @@
                 }}</span>
               </v-col>
               <v-col
+                cols="6"
                 class="d-flex align-center text-subtitle-2 py-0 text-sm-subtitle-1"
               >
-                <span class="font-weight-bold">Trade-P</span>
+                <span class="font-weight-bold">Trade Level</span>
                 <span class="ml-2 secondary--text"
                   >{{ user && user.account.level }}%</span
+                >
+              </v-col>
+              <v-col
+                cols="6"
+                class="d-flex align-center text-subtitle-2 py-0 text-sm-subtitle-1"
+              >
+                <span class="font-weight-bold">Signal Strength</span>
+                <span class="ml-2 secondary--text"
+                  >{{ user && user.account.signal }}%</span
                 >
               </v-col>
             </v-row>

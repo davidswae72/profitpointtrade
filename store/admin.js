@@ -393,8 +393,8 @@ export const actions = {
 
       // let newUser = doc.data()
       // newUser.account.signal = 0
-      // dispatch('updateUser', newUser)
-      // console.log(newUser.name, ' Updated Successfully')
+      // dispatch('updateUser', {user: newUser, edit:{profit:false,deposit:false}, message:''})
+
 
       users.push(doc.data())
     });
