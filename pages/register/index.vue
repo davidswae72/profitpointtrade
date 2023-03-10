@@ -172,11 +172,11 @@
                     <div class="text-caption light--text">
                       I accept the Profit Point Trade AUS Service (by Gleneagle)
                       -
-                      <nuxt-link tag="a" class="secondary--text" to="#">
+                      <nuxt-link tag="a" class="secondary--text" to="/policy">
                         Terms & Conditions, Product Disclosure Statement
                       </nuxt-link>
                       and
-                      <nuxt-link tag="a" class="secondary--text" to="#">
+                      <nuxt-link tag="a" class="secondary--text" to="/policy">
                         Financial Services Guide
                       </nuxt-link>
                       (ASIC Regulated)
