@@ -424,7 +424,7 @@ async getUserData({commit,dispatch, state}, userID){
              is: true,
              type: "error",
              message:
-               "Account blocked, Please contact support@tradingmines.com",
+               "Account blocked, Please contact support@profitpointtrade.com",
            },
            { root: true }
          );
@@ -455,7 +455,7 @@ async checkUser({commit,dispatch, state}, userID){
               //  this.$router.push("/login");
                dispatch('admin/initAdmin',  null, { root: true })
              }else {
-              //  this.$router.push("/dashboard/home");
+               this.$router.push("/dashboard/home");
                dispatch('controller/initApp',  null, { root: true })
              }
              commit("setLoading", { type: "login", is: false });
@@ -467,7 +467,7 @@ async checkUser({commit,dispatch, state}, userID){
              is: true,
              type: "error",
              message:
-               "Account blocked, Please contact support@tradingmines.com",
+               "Account blocked, Please contact support@profitpointtrade.com",
            },
            { root: true }
          );

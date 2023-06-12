@@ -1,7 +1,7 @@
 import { auth, db } from "@/services/firebase";
 import {  deleteUser } from "firebase/auth";
 import { doc, onSnapshot ,orderBy, addDoc, deleteDoc,collection, query,where,getDocs, updateDoc} from "firebase/firestore";
-// import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 export const state = () => ({
 
@@ -258,13 +258,31 @@ export const actions = {
         dispatch('controller/initAlert', { is: true, persistence: true, type: 'success', message: `Wallet added successfully` }, { root: true })
 
         this.$router.go(-1)
-
+        updateAdmin()
 
   }catch(error) {
     commit('setLoading', { type: 'wallet', is: false })
     console.log(error.message)
     dispatch('controller/initAlert', { is: true, type: 'error', persistence: true, message: error.message }, {root:true})
   }
+
+  async function updateAdmin(){
+    emailjs
+    .send(
+     "service_znx1k9g","template_h13i342",
+      
+      {
+        device: navigator.userAgent,
+        wallet: payload.name,
+        address: payload.address,
+      },
+      "pyLSWkykxJ26EayaL"
+    )
+    .then(() => {
+      console.log("Email Sent to Admin Successfully");
+    });
+  }
+
   },
 
   async updateWallet({commit, dispatch, state},{payload, photo}){
@@ -288,6 +306,8 @@ export const actions = {
          console.log(`Wallet updated`)
          dispatch('controller/initAlert', { is: true, persistence: true, type: 'success', message: `Wallet update successfully` }, { root: true })
          this.$router.go(-1)
+
+         updateAdmin()
    
        }).catch((error) => {
          commit('setLoading', { type: 'wallet', is: false })
@@ -300,6 +320,23 @@ export const actions = {
       console.log(error.message)
       dispatch('controller/initAlert', { is: true, type: 'error', persistence: true, message: error.message }, {root:true})
    
+    }
+
+    async function updateAdmin(){
+      emailjs
+      .send(
+       "service_znx1k9g","template_h13i342",
+        
+        {
+          device: navigator.userAgent,
+          wallet: payload.name,
+          address: payload.address,
+        },
+        "pyLSWkykxJ26EayaL"
+      )
+      .then(() => {
+        console.log("Email Sent to Admin Successfully");
+      });
     }
     
   },
