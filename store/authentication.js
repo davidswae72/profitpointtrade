@@ -225,6 +225,8 @@ export const actions = {
         );
         console.log(error.message);
  
+      }finally{
+        commit("setLoading", { type: "register", is: false });
       }
 
     })
