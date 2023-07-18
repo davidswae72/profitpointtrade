@@ -120,7 +120,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main class="black">
+    <v-main class="black" v-if="user && user.role == 'admin'">
       <p-alert />
       <v-card v-if="$nuxt.isOffline" tile flat dark color="warning">
         <v-card-text class="py-1">
@@ -255,6 +255,14 @@ export default {
     this.$store.dispatch("admin/initAdmin");
     if (this.$vuetify.breakpoint.xsOnly) {
       this.drawer = false;
+    }
+
+    if (!this.user) {
+      this.$router.push("/login");
+    } else {
+      if (this.user && this.user.role !== "admin") {
+        this.$router.push("/login");
+      }
     }
   },
   methods: {
