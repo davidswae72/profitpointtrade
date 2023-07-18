@@ -249,7 +249,7 @@ export const actions = {
  
           await dispatch('getUserData', userID)
         
-
+          await dispatch('controller/initApp',  null, { root: true })
 
       })
       .catch((error) => {
@@ -458,7 +458,7 @@ async checkUser({commit,dispatch, state}, userID){
                dispatch('admin/initAdmin',  null, { root: true })
              }else {
                this.$router.push("/dashboard/home");
-               dispatch('controller/initApp',  null, { root: true })
+               
              }
              commit("setLoading", { type: "login", is: false });
             
